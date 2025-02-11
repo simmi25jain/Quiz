@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SetInterval Timeout</title>
+    <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
+
 <body class="bg-blue-100">
-    <div class="wrapper  flex justify-center items-center h-screen">
+    <div class="wrapper flex justify-center items-center h-screen">
         <div class="box">
-        <p class="timer"></p>
-        <div class="quizSection p-10 px-70">
-        <button class="border-2 border-solid rounded-md bg-gray-100 p-1 px-4 ">Start Quiz</button>
-        </div>
+
+            <div class="quizSection p-8 px-80 bg-white rounded-lg">
+                <p class="time "></p>
+                <button class="border-2 border-solid rounded-md bg-gray-100 p-2 px-4">Start Quiz</button>
+                <div class="actualQuizSection">
+                    <div class="ques"></div>
+                    <div class="queopt flex flex-wrap gap-4"></div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="main.js" type="module"></script>
 </body>
+
 </html>
